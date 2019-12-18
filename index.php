@@ -16,10 +16,10 @@
   }
  .grid-container {
   display: grid;
-  grid: 80px / 120px auto;
-  grid-gap: 25px;
+  grid-template-columns: auto auto;
   }
   .grid-container > div {
+
   }
 </style>
     <?php foreach($obj as $member): ?>
@@ -35,14 +35,14 @@
                   <?php echo $member->name; ?>
                 <?php endif; ?>
               </p>
-              <?php if(!empty($member->position)): ?><p style="margin: 0px; padding: 0; font-size: 14px; color: #2D2E34;font-weight: 700; font-weight: bold;"><?php echo $member->position; ?></p><?php endif; ?>
+              <?php if(!empty($member->position)): ?><p style="margin: 0px; padding-bottom: 2px; font-size: 14px; color: #2D2E34;font-weight: 700; font-weight: bold;"><?php echo $member->position; ?></p><?php endif; ?>
               <div class="grid-container">
                 <div class="item1">
-                  <a href="https://wagonex.com/" target="_blank"><img src="https://wagonex.com/images/logo_blue.svg" height="30" style="padding: 25px 0"></a>
+                  <a href="https://wagonex.com/" target="_blank"><img src="https://wagonex.com/images/logo_blue.svg" height="30" style="padding: 38px 0"></a>
                 </div>
-                <div class="item2">
+                <div class="item2" style="padding: 10px 0; font-size: 14px; line-height: 22px;">
                   <?php if(!empty($member->mobile)): ?>
-                    <p style="margin-top: 14px; margin-bottom: 0; padding: 0; font-size: 14px; color: #2D2E34;">
+                    <p style="margin: 0; padding: 0; color: #2D2E34;">
                       <a style="color: #2D2E34; text-decoration: none;" href="tel:+44<?php echo $member->mobile; ?>">+44
                     <?php
                     $data_zero = substr($member->mobile, 0, 1);
@@ -51,16 +51,20 @@
                     echo '('.$data_zero.') '.$data_left.' '.$data_right;
                     ?>
                     </a></p><?php endif; ?>
-                  <p style="font-size: 14px; color: #BEC9D6; margin-top: 0px">
+                  <p style="margin: 0; padding: 0; color: #2D2E34;">
+                    <a style="color: #2D2E34; text-decoration: none;" href="tel:+4402030020976">+44 (0) 20 3002 0976 </a>
+                  <p style="color: #BEC9D6; margin: 0;">
                     <a href="https://www.linkedin.com/company/wagonex" target="_blank" style="color: #2D2E34; text-decoration: none;">LinkedIn</a> |
                     <a href="https://www.instagram.com/wagonex" target="_blank" style="color: #2D2E34; text-decoration: none;">Instagram</a> |
                     <a href="https://www.facebook.com/wagonex" target="_blank" style="color: #2D2E34; text-decoration: none;">Facebook</a> |
-                    <a href="https://twitter.com/DriveWAGONEX" target="_blank" style="color: #2D2E34; text-decoration: none;">Twitter</a> <br> 
+                    <a href="https://twitter.com/DriveWAGONEX" target="_blank" style="color: #2D2E34; text-decoration: none;">Twitter</a>
+                  </p>
+                  <p style="color: #BEC9D6; margin: 0;">
                     <a style="color: #2A9FF4; text-decoration: none; font-weight: bold;" href="https://wagonex.com" target="_blank">wagonex.com</a>
                   </p>
                 </div>
               </div>
-              <p style="font-size: 10px; color: #95A2BA; width: 440px; text-align: justify">This email is for the designated recipient only and may contain privileged, proprietary, or otherwise confidential information. If you have received it in error, please notify the sender immediately and delete the original. Any other use of the e-mail by you is prohibited. We take reasonable care to ensure that our emails are not infected by any virus or other malicious software, but we do not guarantee this. Wagonex Limited Company is registered in England and Wales under registration number 10312289.
+              <p style="font-size: 10px; color: #95A2BA; width: 420px; text-align: justify">This email is for the designated recipient only and may contain privileged, proprietary, or otherwise confidential information. If you have received it in error, please notify the sender immediately and delete the original. Any other use of the e-mail by you is prohibited. We take reasonable care to ensure that our emails are not infected by any virus or other malicious software, but we do not guarantee this. Wagonex Limited Company is registered under number 10312289.
               </p>                
             </td>
           </tr>

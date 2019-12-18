@@ -2,10 +2,47 @@
   {
     "name": "Toby Kernon",
     "position": "CEO & Founder",
-    "mobile": "0700 000 0000",
+    "mobile": "0777 079 5660",
     "email": "toby@wagonex.com",
     "image": "",
     "linkedin": "https://www.linkedin.com/in/toby-kernon-b611a853"
+  },
+   
+  {
+    "name": "Joakim Thomter",
+    "position": "Head of Platform",
+    "mobile": "0755 223 0043",
+    "email": "joakim@wagonex.com",
+    "image": "",
+    "linkedin": "https://www.linkedin.com/in/joakim-t-042a55156"
+  },
+  
+  {
+    "name": "Liz Moore",
+    "position": "Customer Operations Manager",
+    "mobile": "",
+    "email": "liz@wagonex.com",
+    "image": "",
+    "linkedin": "https://www.linkedin.com/in/elizabeth-moore-a0143b195"
+  },
+
+  {
+    "name": "Ella Hastings",
+    "position": "Chief Marketing Officer",
+    "mobile": "07985323217",
+    "email": "ella@wagonex.com",
+    "image": "",
+    "linkedin": "https://www.linkedin.com/in/ella-hastings-9997508"
+  },
+
+  {
+    "name": "Oli Thomas",
+    "position": "Sales and Marketing Manager",
+    "mobile": "07894544599",
+    "email": "oli@wagonex.com",
+    "image": "",
+    "linkedin": "https://www.linkedin.com/in/olivergthomas"
   }
+
 
 ]
